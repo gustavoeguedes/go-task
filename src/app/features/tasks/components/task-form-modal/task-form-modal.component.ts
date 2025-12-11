@@ -1,6 +1,6 @@
 import { DIALOG_DATA, DialogRef } from '@angular/cdk/dialog';
 import { Component, inject } from '@angular/core';
-import type { ITaskFormModalData } from '../../interfaces/task-form-modal-data-interface';
+import type { ITaskFormModalData } from '../../../../core/interfaces/task-form-modal-data-interface';
 import {
   FormControl,
   FormGroup,

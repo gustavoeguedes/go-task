@@ -1,7 +1,7 @@
 import { Component, inject, Input } from '@angular/core';
-import { ModalControllerService } from '../../services/modal-controller.service';
-import type { ITask } from '../../interfaces/task.interface';
-import { TaskService } from '../../services/task.service';
+import { ModalControllerService } from '../../../../core/services/modal-controller.service';
+import type { ITask } from '../../../../domain/tasks/interfaces/task.interface';
+import { TaskService } from '../../../../core/services/task.service';
 import { SlicePipe } from '@angular/common';
 
 @Component({

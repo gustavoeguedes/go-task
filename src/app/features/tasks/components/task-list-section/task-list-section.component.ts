@@ -1,12 +1,12 @@
 import { Component, inject } from '@angular/core';
 import { TaskCardComponent } from "../task-card/task-card.component";
-import { TaskService } from '../../services/task.service';
-import type { ITask } from '../../interfaces/task.interface';
+import { TaskService } from '../../../../core/services/task.service';
+import type { ITask } from '../../../../domain/tasks/interfaces/task.interface';
 
 import { CdkDrag, CdkDragDrop, CdkDropList } from '@angular/cdk/drag-drop';
 import { AsyncPipe } from '@angular/common';
-import type { TaskStatusType } from '../../types/task-status';
-import { TaskStatusEnum } from '../../enums/task-status.enum';
+import type { TaskStatusType } from '../../../../domain/tasks/types/task-status';
+import { TaskStatusEnum } from '../../../../domain/tasks/enums/task-status.enum';
 
 
 

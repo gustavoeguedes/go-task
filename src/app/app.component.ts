@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from './components/header/header.component';
-import { MainContentComponent } from './components/main-content/main-content.component';
+import { HeaderComponent } from './core/layout/header/header.component';
+import { MainContentComponent } from './features/tasks/components/main-content/main-content.component';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +8,4 @@ import { MainContentComponent } from './components/main-content/main-content.com
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent {}
+export class AppComponent { }
